@@ -1,0 +1,272 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Roboto', 'Verdana', sans-serif;
+  font-weight: 300;
+  margin-bottom: 72px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+section a {
+  color: #04e1f4;
+  text-decoration: none ;
+}
+
+a:hover {
+  color: #861657;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section .row img {
+  width: 100%;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  font-size: 2em;
+  color: #861657;
+  margin: 0;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #FFF;
+  background-color: #e6d0dd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/*.navbar-nav>li>a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}*/
+
+.navbar, .navbar-default, .navbar-fixed-top, .navbar-nav {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a, .dropdown-menu>li>a {
+  color: #861657;
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #FFF;
+  background-color: #e6d0dd;
+}
+
+.navbar-default .navbar-nav>.active>a, .dropdown-menu>.active>a {
+  color: #04e1f4;
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+  color: #FFF;
+  background-color: #e6d0dd;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: #861657;
+  background-color: white;  
+}
+
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+  color: #FFF;
+  background-color: #e6d0dd;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #861657;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #e6d0dd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #861657;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e6d0dd;
+}
+
+/* FOOTER */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 72px;
+  background-color: white;
+}
+
+footer {
+  font-size: 12px;
+  padding: 10px 20px;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+  -webkit-flex: 3;
+  flex: 3;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 1em;
+  padding: 0px 0px;
+  min-width: 44px;
+}
+
+footer .col-sm-4 {
+  margin: 10px 10px;
+  margin-right: 0px;
+  padding-right: 0px;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+  padding: 0px 0px;
+}
+
+footer li img {
+  height: 32px;
+  width:  32px;
+  margin: 10px 10px;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-color: #861657;
+  height: 550px;
+  margin: 0px 0px;
+  width: 100%;
+}
+
+/* MAIN */
+
+h2.main-title {
+  font-family: 'Raleway', 'Verdana', sans-serif;
+  font-weight: bold;
+  color: #861657;
+  padding: 20px 0px;
+  margin:  20px 0px;
+}
+
+/* HOME */
+
+p.mission {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* OFFICERS */
+
+.officers {
+  margin: auto;
+  font-size: 1.1em;
+  width: 80%;
+}
+
+.officer-bio {
+  width: 40%;
+  min-width: 300px;
+  display: inline-block;
+  padding-bottom: 20px;
+  vertical-align: top
+}
+
+.officer-name {
+  color: #861657;
+  font-family: 'Raleway', 'Verdana', sans-serif;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.officer-position {
+  color: #04e1f4;
+  font-family: 'Playball', 'Monotype Corsiva', cursive;
+  font-size: 1.4em;
+}
+
+.officer-bio img {
+  padding: 0% 15%;
+}
+
+.officer-bio p {
+  font-size: 1em;
+}
+
+/* MEMBERS TABLE */
+
+table.members {
+  color: black;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.members th {
+  text-align: center;
+  font-family: 'Raleway', 'Verdana', sans-serif;
+  font-weight: 700;
+  color: #04e1f4;
+  font-size: 1.2em;
+}
+
+/* CONTACT US */
+
+.contact-us {
+  margin: auto;
+  font-size: 1.1em;
+
+}
+
+.contact-us td {
+  width: 50%;
+}
