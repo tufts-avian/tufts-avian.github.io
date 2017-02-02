@@ -9,6 +9,10 @@ body {
   margin-bottom: 72px;
 }
 
+.remove-from-site {
+  display: none;
+}
+
 p {
   font-size: 1.2em;
 }
